@@ -1,0 +1,8 @@
+.Songs {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  border-bottom: solid grey 1px;
+  margin-top: 8px;
+}

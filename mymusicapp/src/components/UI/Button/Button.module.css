@@ -1,0 +1,34 @@
+.myButton {
+  -moz-box-shadow: 0px 0px 2px 0px #285e19;
+  -webkit-box-shadow: 0px 0px 2px 0px #285e19;
+  box-shadow: 0px 0px 2px 0px #285e19;
+  background-color: #d83c3c;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 0.2px solid black;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 11px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #dd5959;
+  outline: none;
+  right: 0px;
+  margin: 1px 8px;
+}
+.myButton:hover {
+  background-color: #dd5959;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+  outline: none;
+}
+.myButton:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}

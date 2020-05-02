@@ -1,0 +1,70 @@
+{
+  "musics": [
+    {
+      "id": 1,
+      "name": "yaad piya ki aane lagi",
+      "imagePath": "localhost:3000/api/v1/audio/image/yaad-piyaki-aane-lagi.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/yaad-piyaki-aane-lagi.mp3"
+    },
+    {
+      "id": 2,
+      "name": "gallan kardi",
+      "imagePath": "localhost:3000/api/v1/audio/image/galla-kardi.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/galla-kardi.mp3"
+    },
+    {
+      "id": 3,
+      "name": "pachtaoge",
+      "imagePath": "localhost:3000/api/v1/audio/image/pachtaoge.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/pachtaoge.mp3"
+    },
+    {
+      "id": 4,
+      "name": "tujhme rab dikhta hai",
+      "imagePath": "localhost:3000/api/v1/audio/image/tujhme-rab-dikhta-hai.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/tujhme-rab-dikhta-hai.mp3"
+    },
+    {
+      "id": 5,
+      "name": "mummynu pasand nahi tu",
+      "imagePath": "localhost:3000/api/v1/audio/image/mummynu-pasand-nahi-tu.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/mummynu-pasand-nahi-tu.mp3"
+    },
+    {
+      "id": 6,
+      "name": "high rated gabru",
+      "imagePath": "localhost:3000/api/v1/audio/image/high-rated-gabru.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/high-rated-gabru.mp3"
+    },
+    {
+      "id": 7,
+      "name": "illegal weapon 2.0",
+      "imagePath": "localhost:3000/api/v1/audio/image/illegal-weapon-2.0.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/illegal-weapon-2.0.mp3"
+    },
+    {
+      "id": 8,
+      "name": "lae dooba",
+      "imagePath": "localhost:3000/api/v1/audio/image/lae-dooba.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/lae-dooba.mp3"
+    },
+    {
+      "id": 9,
+      "name": "senorita",
+      "imagePath": "localhost:3000/api/v1/audio/image/senorita.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/senorita.mp3"
+    },
+    {
+      "id": 10,
+      "name": "shayad",
+      "imagePath": "localhost:3000/api/v1/audio/image/shayad.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/shayad.mp3"
+    },
+    {
+      "id": 11,
+      "name": "shap of you",
+      "imagePath": "localhost:3000/api/v1/audio/image/shape-of-you.jpg",
+      "audioPath": "localhost:3000/api/v1/audio/shape-of-you.mp3"
+    }
+  ]
+}
