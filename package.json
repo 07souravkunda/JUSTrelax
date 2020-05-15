@@ -2,13 +2,13 @@
   "name": "mymusicapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix mymusicapp",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Sourav Kunda",
   "license": "ISC",
@@ -26,5 +26,10 @@
     "mongoose": "^5.8.11",
     "nodemon": "^2.0.2",
     "validator": "^12.2.0"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
