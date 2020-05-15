@@ -59,12 +59,6 @@
       "name": "shayad",
       "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/shayad.jpg",
       "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/shayad.mp3"
-    },
-    {
-      "id": 11,
-      "name": "shap of you",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/shape-of-you.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/shape-of-you.mp3"
     }
   ]
 }

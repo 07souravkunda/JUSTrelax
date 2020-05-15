@@ -61,3 +61,11 @@ exports.getSearchedSong = (req, res, next) => {
     return next(new AppError("Not Found", 404));
   }
 };
+
+// ,
+//     // {
+//     //   "id": 11,
+//     //   "name": "shape of you",
+//     //   "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/shape-of-you.jpg",
+//     //   "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/shape-of-you.mp3"
+//     // }
