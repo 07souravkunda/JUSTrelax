@@ -5,13 +5,13 @@ const util = require("util");
 const { OAuth2Client } = require("google-auth-library");
 const catchAsync = require("../utils/catchAsync");
 const client = new OAuth2Client(
-  "746316035805-sdvj15sq8jhdkgpnitppokg5jpg3dj66.apps.googleusercontent.com"
+  process.env.GOOGLE_CLIENT_ID
 );
 
 const app_token = async (access_token) => {
   try {
     let token = await axios.get(
-      `https://graph.facebook.com/oauth/access_token?client_id=1286403248226420&client_secret=2c559732ae2892a28540ef4a2bd02e85&grant_type=client_credentials`
+      `https://graph.facebook.com/oauth/access_token?client_id=${process.env.FACEBOOK_CLIENT_ID}&client_secret=${process.env.FACEBOOK_CLIENT_SECRET}&grant_type=client_credentials`
     );
     token = token.data.access_token;
     const data = await axios.get(
@@ -27,7 +27,7 @@ const app_token = async (access_token) => {
 const verify = async (token) => {
   try {
     const CLIENT_ID =
-      "746316035805-sdvj15sq8jhdkgpnitppokg5jpg3dj66.apps.googleusercontent.com";
+      process.env.GOOGLE_CLIENT_ID;
     const ticket = await client.verifyIdToken({
       idToken: token,
       audience: CLIENT_ID,
