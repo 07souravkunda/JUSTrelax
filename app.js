@@ -23,13 +23,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/", (req, res, next) => {
-  res.status(200).json({
-    status: "success",
-    data: "this is main route",
-  });
-});
-
 app.use("/api/v1/audio", audioRouter);
 
 app.use("/api/v1/users", userRouter);
