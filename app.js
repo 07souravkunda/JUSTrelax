@@ -32,6 +32,7 @@ app.use("/api/v1/queue", queueRouter);
 // app.use("/api/v1/upload", uploadRouter);
 
 app.use("*", (req, res, next) => {
+  console.log("hello");
   next(new AppError("this route not present", 404));
 });
 
