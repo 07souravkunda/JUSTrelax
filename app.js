@@ -11,7 +11,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://justrelax-ce045.firebaseapp.com/",
+    origin: "https://justrelax-ce045.firebaseapp.com",
     credentials: true,
   })
 );
