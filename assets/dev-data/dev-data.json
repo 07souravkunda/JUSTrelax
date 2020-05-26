@@ -3,62 +3,62 @@
     {
       "id": 1,
       "name": "yaad piya ki aane lagi",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/yaad-piyaki-aane-lagi.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/yaad-piyaki-aane-lagi.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/yaad-piyaki-aane-lagi.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/yaad-piyaki-aane-lagi.mp3"
     },
     {
       "id": 2,
       "name": "gallan kardi",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/galla-kardi.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/galla-kardi.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/galla-kardi.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/galla-kardi.mp3"
     },
     {
       "id": 3,
       "name": "pachtaoge",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/pachtaoge.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/pachtaoge.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/pachtaoge.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/pachtaoge.mp3"
     },
     {
       "id": 4,
       "name": "tujhme rab dikhta hai",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/tujhme-rab-dikhta-hai.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/tujhme-rab-dikhta-hai (1).mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/tujhme-rab-dikhta-hai.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/tujhme-rab-dikhta-hai (1).mp3"
     },
     {
       "id": 5,
       "name": "mummynu pasand nahi tu",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/mummynu-pasand-nahi-tu.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/mummynu-pasand-nahi-tu.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/mummynu-pasand-nahi-tu.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/mummynu-pasand-nahi-tu.mp3"
     },
     {
       "id": 6,
       "name": "high rated gabru",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/high-rated-gabru.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/high-rated-gabru.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/high-rated-gabru.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/high-rated-gabru.mp3"
     },
     {
       "id": 7,
       "name": "illegal weapon 2.0",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/illegal-weapon-2.0.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/illegal-weapon-2.0.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/illegal-weapon-2.0.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/illegal-weapon-2.0.mp3"
     },
     {
       "id": 8,
       "name": "lae dooba",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/lae-dooba.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/lae-dooba.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/lae-dooba.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/lae-dooba.mp3"
     },
     {
       "id": 9,
       "name": "senorita",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/senorita.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/senorita.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/senorita.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/senorita.mp3"
     },
     {
       "id": 10,
       "name": "shayad",
-      "imagePath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/image/shayad.jpg",
-      "audioPath": "https://guarded-beyond-88816.herokuapp.com/api/v1/audio/shayad.mp3"
+      "imagePath": "http://localhost:3000/api/v1/audio/image/shayad.jpg",
+      "audioPath": "http://localhost:3000/api/v1/audio/shayad.mp3"
     }
   ]
 }

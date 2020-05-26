@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix mymusicapp",
+    "client": "npm start --prefix ../mymusicapp",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Sourav Kunda",

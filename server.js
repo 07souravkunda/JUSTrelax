@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 
-const CONNECTION_STRING =
-  "mongodb+srv://sourav:<PASSWORD>@cluster0-syyka.gcp.mongodb.net/test?retryWrites=true&w=majority";
-const PASSWORD = "9PhB6L5hys96VoDc";
-const url = CONNECTION_STRING.replace("<PASSWORD>", PASSWORD);
+const url = process.env.CONNECTION_STRING.replace(
+  "<PASSWORD>",
+  process.env.DATABASE_PASSWORD
+);
 mongoose
   .connect(url, {
     useNewUrlParser: true,
@@ -24,7 +24,7 @@ mongoose
 const hostname = "localhost";
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => {
+app.listen(port, hostname, () => {
   console.log(port);
   console.log("server running...");
 });
