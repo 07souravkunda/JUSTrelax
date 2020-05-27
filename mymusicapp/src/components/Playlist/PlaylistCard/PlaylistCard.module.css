@@ -1,0 +1,29 @@
+.PlaylistCard {
+  width: 100%;
+  height: 140px;
+  border-radius: 4px;
+  background-image: url("./card.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.container {
+  width: 15%;
+  height: 150px;
+  margin: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.playButton {
+  margin-top: 50%;
+  transform: translate(0, -80%);
+  font-size: 70px;
+  z-index: 10;
+  color: white;
+  opacity: 1;
+}
